@@ -1,0 +1,54 @@
+body {
+
+    background-image: url('https://wallpapercave.com/dwp1x/wp5537491.jpg');
+    background-size: cover;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-wrap: wrap;
+    margin: 8%;
+    flex-direction: row;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.characters,
+.episodes,
+.locations {
+    flex-basis: 27%;
+    margin: 20px;
+    align-items: center;
+    max-width: 100%;
+    text-align: center;
+    padding-bottom: 2%;
+
+
+}
+
+.characters:hover,
+.episodes:hover,
+.locations:hover {
+    color: rgb(92, 155, 174);
+}
+
+.list {
+    background-color: rgb(15, 15, 15, 0.7);
+    padding: 1% 1% 1% 1%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.card>img {
+    height: 100px;
+    width: 50px;
+}
